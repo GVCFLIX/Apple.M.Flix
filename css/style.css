@@ -54,17 +54,63 @@ span{
     color: rgba(0, 0, 0, 0.747);
     margin-top: 6px;
 }
-.iphone13buy{
+.iphone13probuy{
     margin-top: 10px;
     display: flex;
     justify-content: center;
 }
-.iph13link{
+.iph13prolink{
     text-decoration: none;
     color: rgb(19, 94, 233);
     font-size: 21px;
     margin-left: 20px;
 }
-.iph13link:hover{
-    border-bottom: 1px solid rgb(19, 94, 233);
+.iph13prolink:hover{
+    border-bottom: 3px solid rgb(19, 94, 233);
+}
+/* iph13 wallpaper */
+.iph13wallpaper{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.iph13photo{
+    margin-top: 50px;
+    width: 550px;
+}
+/* iph13 suprerpower div */
+.iph13div{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(37, 5, 37, 0.863);
+    margin-top: 10px;
+}
+.iph13head{
+    margin-top: 50px;
+    display: inline-block;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.iph13title{
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    font-size: 50px;
+    margin-left: 10px;
+}
+.iph13-title{
+    flex-wrap: wrap;
+    color: violet;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+.iph13-superpic{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.iph13pic{
+    margin-top: 200px;
+    width: 550px;
+    height: 300px;
 }
